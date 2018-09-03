@@ -106,7 +106,7 @@ button {
 
 .nvx-display {
   max-height: 25vh;
-  height: 13em;
+  height: 20em;
   overflow: hidden;
   transition: 0.2s;
   opacity: 1;

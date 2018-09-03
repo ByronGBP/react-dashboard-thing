@@ -3,6 +3,7 @@ import React, { Component, Fragment } from 'react';
 
 import Header from './Header/Header';
 import Welcome from './Welcome/Welcome';
+import Content from './Content/Content';
 
 type Props = {};
 
@@ -11,7 +12,8 @@ class Main extends Component<Props> {
     return (
       <Fragment>
         <Header/>
-        <Welcome />
+        <Welcome/>
+        <Content itemActive=""/>
       </Fragment>
     );
   }

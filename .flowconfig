@@ -4,6 +4,7 @@
 [include]
 
 [libs]
+node_modules/iflow-chartist/index.js.flow
 
 [lints]
 
