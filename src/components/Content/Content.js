@@ -50,17 +50,20 @@ class Content extends Component<Props, State> {
     return (
       <div className="nvx-content container my-3 px-4">
         <div id="carouselItems" className="carousel slide hld-item" data-ride="carousel" data-interval="0">
-          <ul className="nav justify-content-center">
-            <li data-target="#carouselItems" data-slide-to="0" className="nav-item">
-              <div className="nav-link">Global</div>
-            </li>
-            <li data-target="#carouselItems" data-slide-to="1" className="nav-item">
-              <div className="nav-link">Overview</div>
-            </li>
-            <li data-target="#carouselItems" data-slide-to="2" className="nav-item">
-              <div className="nav-link">Pendings</div>
-            </li>
-          </ul>
+          <div className="container">
+            <ul className="nav row justify-content-center">
+              <li data-target="#carouselItems" data-slide-to="0" className="col-4">
+                <div className="py-3">Global</div>
+              </li>
+              <li data-target="#carouselItems" data-slide-to="1" className="col-4">
+                <div className="py-3">Overview</div>
+              </li>
+              <li data-target="#carouselItems" data-slide-to="2" className="col-4">
+                <div className="py-3">Pending</div>
+              </li>
+            </ul>
+          </div>
+
           <div className="nvx-content-swipable carousel-inner">
             <div className="carousel-item active">
               <Global/>

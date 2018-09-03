@@ -1,10 +1,10 @@
 //@flow
 import React from 'react';
 
-const Pendings = () => (
+const Pending = () => (
   <div className="container p-5">
-    Pendings
+    Pending
   </div>
 );
 
-export default Pendings;
+export default Pending;
