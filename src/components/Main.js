@@ -1,14 +1,18 @@
 // @flow
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import Header from './Header/Header';
+import Welcome from './Welcome/Welcome';
 
 type Props = {};
 
 class Main extends Component<Props> {
   render () {
     return (
-      <Header/>
+      <Fragment>
+        <Header/>
+        <Welcome />
+      </Fragment>
     );
   }
 }

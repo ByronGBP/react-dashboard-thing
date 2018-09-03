@@ -14,34 +14,45 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f9fa;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ---- typography ---- */
 
 body {
-  color:#EFF7F3;
+  color:#000;
   font-family: Karla, sans-serif;
+  width: 100%;
 }
 
 button {
   font-family: Karla, sans-serif;
 }
 
-.fs-18 {
-  font-size: 18px !important;
-}
+.fs-14 { font-size: 14px !important;}
+.fs-18 { font-size: 18px !important;}
+
+.nvx-bold { font-weight: bold !important;}
 
 /* ---- layout ---- */
 
 .nvx-w-min-content { max-width: min-content }
 
 .nvx-color-black { color:#515051 }
+.nvx-color-white { color:#fff }
 
-
-
+.hld-p {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  margin: 0px 0px 10px 0px;
+  font-style: normal;
+  white-space: normal;
+}
 
 /* ---- components ---- */
-
 
 .hld-header {
   height: 48px;
@@ -69,3 +80,37 @@ button {
   width: 15px;
   height: 13px;
 }
+
+.hld-item {
+  border: 0px solid rgba(0,0,0,0.09);
+  box-shadow: 0 2px 4px rgba(0,0,0,.15), 0 0 1px rgba(0,0,0,.08);
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.hld-bg-welcome {
+  background-image: url(https://app.holded.com/assets/img/bg/bg-hello.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  font-family: Karla, sans-serif;
+}
+
+.nvx-user-options {
+  max-height: 0;
+  height: 0;
+  opacity: 0;
+  transition: 0.2s;
+  z-index: -10;
+}
+
+.nvx-display {
+  max-height: 25vh;
+  height: 13em;
+  overflow: hidden;
+  transition: 0.2s;
+  opacity: 1;
+  z-index: auto;
+}
+
+
