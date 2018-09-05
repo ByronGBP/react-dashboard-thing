@@ -24,7 +24,7 @@ class Welcome extends Component<Props> {
         <div className="hld-item hld-bg-welcome d-flex justify-content-center align-items-center py-4">
           <div className="text-center fs-14 nvx-color-white">
             <img src="https://app.holded.com/assets/img/hround.png" alt="hld-logo" height="30"/><br/>
-            <p className="hld-p nvx-bold mt-2 mb-3">Hey Byron!</p>
+            <p className="hld-p nvx-bold mt-2 mb-3">Hey User!</p>
             <div className="text-left nvx-user-options" ref={element => this.containerElement = element} >
               { this.checkDisplay() &&
         <Fragment>
